@@ -1,0 +1,240 @@
+/* @override http://www.pcctoday.com/prayerwall/stylesheets/prayerengine/color_schemes/custom_color_scheme.css */
+
+/* Prayer Engine - Custom Color Scheme */
+
+/* ---------- PRAYER REQUEST FORM ---------- */
+
+body {
+	margin: 0;
+	padding: 0;
+}
+#pe-container {
+	width: 600px;
+}
+
+#pe-submit-container { /* Background color of the title bar at the top */
+	background-color: transparent;
+}
+
+#pe-form-container { /* Background color for the form */
+	background-color: transparent;
+	border-top: none;
+}
+
+#pe-submit-area { /* Background color for the submit area at the bottom of the form */
+	background-color: #f0f0f0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+/* Main submit bar at the top of the form area */
+
+#pe-submit-container #pe-share-button { /* Colors for the button that toggles the form display */
+	color: #fff;
+	background-color: #99ad52;
+	padding: 9px 0 4px 0;
+	font-style: normal;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 1px 1px #cccccc;
+	-moz-box-shadow: 0px 0px 1px 1px #cccccc;
+	box-shadow: 0px 0px 1px 1px #cccccc;
+	border: 1px solid #7f8f42;
+}
+
+#pe-submit-container h2 { /* Color of the title */
+
+}
+
+/* Instructions */
+
+#pe-form-container p.instructions { /* Color of the instructions text */
+	color: #000;
+}
+
+/* Label styles for the form */
+
+#pe-form-container label { /* Color of the form labels */
+	color: #000;
+}
+
+#pe-form-container label.checkbox { /* Color of the labels for the checkboxes at the bottom */
+	color: #000;
+}
+
+#pe-form-container label.error { /* Color of the JavaScript Error messages */
+	color: #7e192b;
+}
+
+/* Input styles for the form */
+
+#pe-form-container input, #pe-form-container textarea, #pe-form-container select { /* Color of the form fields */
+	border: 2px solid #dadada;
+	color: #000;
+}
+
+#pe-form-container input.submit { /* Colors of the form submit button */
+	background-color: #99ad52;
+	border: 1px solid #7f8f42;
+	color: #fff;
+	padding: 8px 20px 7px 50px;
+	width: auto;
+	font-style: normal;
+	font-weight: bold;
+	letter-spacing: 1px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 1px 1px #cccccc;
+	-moz-box-shadow: 0px 0px 1px 1px #cccccc;
+	box-shadow: 0px 0px 1px 1px #cccccc;
+}
+
+#pe-form-container input.error, #pe-form-container textarea.error { /* Color of the fields when an error exists */
+	border: 2px solid #7e192b;
+	color: #000;
+}
+
+/* Twitter field counter */
+
+#pe-form-container #pe-twitter-area p.twitter-counter { /* Color of the Twitter counter */
+	color: #000;
+}
+
+/* PHP Error and Success Messages */
+
+#pe-form-container #errors { /* Colors for the PHP error message field */
+	background-color: #7e192b;
+	color: #fff;
+}
+
+#pe-form-container #success {
+	background-color: #f3f1be;
+	color: #333;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 15px 10px;
+}
+#success p {
+	line-height: 160%;
+	font-size: 11px !important;
+}
+
+/* ---------- PRAYER REQUEST LISTS ---------- */
+
+.pe-prayer-even { /* Colors for the alternating rows of prayer requests */
+	background-color: #ebe9e5;
+	border: 1px solid #e3e1dd;
+	padding: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.pe-prayer-odd { /* "" */
+border-bottom: none;
+padding: 20px;
+}
+
+.pe-prayer-even h3, .pe-prayer-odd h3 { /* Prayer request titles */
+	color: #6f9196;
+	font-size: ;
+}
+
+.pe-prayer-even p, .pe-prayer-odd p { /* Color of prayer request text */
+	color: #000;
+}
+
+.pe-prayer-even h4, .pe-prayer-odd h4 { /* Color of date stamp at the bottom of prayer requests */
+	color: #919191;
+}
+
+.pe-count-area h4 { /* Color of prayer count text */
+	color: #94bfc6;
+}
+
+.pe-count-area h4 strong { /* Color of prayer count after "I prayed for this" is clicked */
+	color: #000;
+}
+
+.pe-count-area a.submitlink { /* Color of "I prayed for this" button */
+	color: #fff;
+	font-style: normal;
+	font-size: 11px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 1px 1px #cccccc;
+	-moz-box-shadow: 0px 0px 1px 1px #cccccc;
+	box-shadow: 0px 0px 1px 1px #cccccc;
+}
+
+.pe-count-area a.submitlink:link {background-color: #6f9196;border: 1px solid #567275;}
+.pe-count-area a.submitlink:visited {background-color: #94bfc6;}
+.pe-count-area a.submitlink:hover {background-color: #94bfc6;}
+.pe-count-area a.submitlink:active {background-color: #94bfc6;}
+
+.pe-count-area blockquote { /* Color of disabled "I prayed for this" button */
+	background-color: #bfbfbf;
+	border: 1px solid #b5b5b5;
+	color: #fff;
+	font-style: normal !important;
+	font-size: 11px !important;
+	padding-top: 7px !important;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+
+
+/* ---------- PAGINATION ---------- */
+
+.pe-pagination .pe-current-page { /* Color of current page */
+	border: 1px solid #94bfc6;
+	background-color: #94bfc6;
+	color: #fff;
+}
+
+.pe-pagination a:link {color: #94bfc6; border: 1px solid #fff;} /* Color of other pagination links */
+.pe-pagination a:visited {color: #94bfc6; border: 1px solid #fff;}
+.pe-pagination a:hover {color: #94bfc6; border: 1px solid #94bfc6;}
+.pe-pagination a:active {color: #fff; border: 1px solid #94bfc6; background-color: #94bfc6;}
+
+/* --------- PRAYER ENGINE BRANDING ---------- */
+
+h3#powered_by a {
+	background: url('../../../images/prayerengine/structure/frontend/GrayPoweredBy_PE.gif') no-repeat;
+	display: none;
+}
+
+p#copyright {
+	color: #d6d6d6;
+}
+
+p#copyright a:link {color: #d6d6d6;}
+p#copyright a:visited {color: #d6d6d6;}
+p#copyright a:hover {color: #8c8c8c;}
+p#copyright a:active {color: #8c8c8c;}
+
+
+body, p, h1, h2, h3, h4, h5, a {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+h2 {
+  color: #777777 !important;
+  font-size: 20px !important;
+  font-weight: normal;
+}
+h4 {
+	color: #7b8b40 !important;
+}
+
+#pe-container p {
+	padding-left: 0 !important;
+	line-height: 150% !important;
+}

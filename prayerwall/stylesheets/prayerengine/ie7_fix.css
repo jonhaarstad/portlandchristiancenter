@@ -1,0 +1,25 @@
+/* Prayer Engine - Fixes for IE7's embarassing page rendering */
+
+/* Fix submit area spacing */
+
+#pe-form-container input.check {
+	width: 16px;
+	display: block;
+	float: left;
+	margin: 6px 4px 0 3px;
+	border: 0;
+}
+
+#pe-form-container label.checkbox {
+	padding: 8px 5px 0 0;
+	display: block;
+	float: left;
+}
+
+#pe-form-container input.submit {
+	margin: 0 0 0 6px;
+}
+
+.pe-count-area {
+	margin: 0 0 4px 0;
+}

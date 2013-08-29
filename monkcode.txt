@@ -1,0 +1,10 @@
+SITEID=2853
+ACCESS=readfile
+CMSCODE=EKK
+CMSTYPE=CMS
+API=http://api.monkcms.com/Clients
+MCMS_SITENAME=Portland Christian Center | A Portland Oregon Church
+SECRET=xmZxZTVk0cOFDRSseASEbBZaplQLiZpZ
+EASY_EDIT=1
+CMS_URL=http://my.ekklesia360.com
+MCHK_KEY=

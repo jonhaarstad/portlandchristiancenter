@@ -1,0 +1,21 @@
+
+<ul id="subNav">
+  <li class="current" id="subNav_support"><a href="/support/">Support</a>
+    <ul>
+    <li id="subNav_theprayerwall"><a href="/theprayerwall/">The Prayer Wall</a></li>
+    <li id="subNav_support_urgent-care-network"><a href="/support/urgent-care-network/">Urgent Care Network</a></li>
+    <li id="subNav_support_life-events"><a href="/support/life-events/">Life Events</a>
+      <ul>
+      <li id="subNav_child-dedications"><a href="/child-dedications/">What About Baby/Child Dedications?</a></li>
+      <li id="subNav_baptisms"><a href="/baptisms/">What About Water Baptism?</a></li>
+      <li id="subNav_care_life-events_funeral"><a href="/care/life-events/funeral/">How Do I Plan A Funeral?</a></li>
+      <li id="subNav_wedding"><a href="/wedding/">Planning a Wedding?</a></li>
+    </ul>
+    </li>
+    <li id="subNav_care_compassion"><a href="/care/compassion/">Compassion and Support</a></li>
+    <li class="current" id="subNav_support_biblical-counseling"><a href="/support/biblical-counseling/">Biblical Counseling</a></li>
+    <li id="subNav_support_professional-counseling-services"><a href="/support/professional-counseling-services/">Professional Counseling Services</a></li>
+    <li id="subNav_lifelearning_marriage"><a href="/lifelearning/marriage/" target="_blank">Pre-Martial, Enrichment, Restoration Coaching</a></li>
+    </ul>
+  </li>
+</ul>

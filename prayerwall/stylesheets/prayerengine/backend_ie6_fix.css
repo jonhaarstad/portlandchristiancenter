@@ -1,0 +1,152 @@
+/* Prayer Engine - Fixes for Internet Explorer 6's horrible page rendering */
+
+body#login #login-area {
+	width: 360px;
+	margin: 100px auto 20px auto;
+	padding: 201px 20px 20px 20px;
+	background: url('../../images/prayerengine/structure/backend/pe_logo.jpg') no-repeat;
+	background-color: #fff;
+	-moz-box-shadow: 2px 2px 0 #aaaaaa;
+	-webkit-box-shadow: 2px 2px 0 #aaaaaa;
+}
+
+body#login #login-area #messages {
+	margin: -20px -20px 0 -20px;
+	background-color: #c8c8c8;
+}
+
+body#login #login-area p.error {
+	text-align: center;
+	padding: 8px 0 8px 0;
+	margin: -20px -20px 0 -20px;
+	font-size: 1.4em;
+	color: #fff;
+	background-color: #7e192b;
+}
+
+ul#pe-backend-nav {
+	margin: 0 -2px 0 0;
+}
+
+#pe-user-options ul {
+	margin: 0 0 0 50px;
+}
+
+#pe-user-options ul li.logout {
+	width: 80px;
+}
+
+#pe-user-options ul li.live {
+	width: 140px;
+}
+
+#pe-user-options ul li.account {
+	list-style-type: none;
+	float: right;
+	width: 162px;
+}
+
+#pe-user-options ul li.logout a:link {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_lock.jpg') no-repeat;}
+#pe-user-options ul li.logout a:visited {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_lock.jpg') no-repeat;}
+#pe-user-options ul li.logout a:hover {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_lock.jpg') no-repeat; background-position: 0 -24px;}
+#pe-user-options ul li.logout a:active {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_lock.jpg') no-repeat; background-position: 0 -24px;}
+
+#pe-user-options ul li.live a:link {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_site.jpg') no-repeat;}
+#pe-user-options ul li.live a:visited {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_site.jpg') no-repeat;}
+#pe-user-options ul li.live a:hover {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_site.jpg') no-repeat; background-position: 0 -24px;}
+#pe-user-options ul li.live a:active {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_site.jpg') no-repeat; background-position: 0 -24px;}
+
+#pe-user-options ul li.account a:link {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_account.jpg') no-repeat;}
+#pe-user-options ul li.account a:visited {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_account.jpg') no-repeat;}
+#pe-user-options ul li.account a:hover {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_account.jpg') no-repeat; background-position: 0 -24px;}
+#pe-user-options ul li.account a:active {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0; background: url('../../images/prayerengine/structure/backend/user_account.jpg') no-repeat; background-position: 0 -24px;}
+
+#pe-backend-content .edit-form-table input.check {
+	border: 0;
+	padding: 0;
+	width: 16px;
+	display: block;
+	float: left;
+	margin: 6px 4px 0 3px;
+}
+
+#pe-backend-content .edit-form-table td input.check {
+	border: 0;
+	padding: 0;
+	width: 16px;
+	display: block;
+	float: left;
+	margin: 6px 4px 0 3px;
+	clear: left;
+}
+
+#pe-backend-content .edit-form-table #pe-submit-area label {
+	padding: 8px 5px 0 0;
+	display: block;
+	float: left;
+}
+
+#pe-backend-content .edit-form-table input.radio {
+	border: 0;
+}
+
+#pe-backend-content form table {
+	margin: 0 0 10px 20px;
+	width: 500px;
+}
+
+#pe-backend-content .edit-form-table td.label-cell {
+	padding: 5px 8px 0 18px;
+	width: 80px;
+	text-align: right;
+}
+
+#pe-backend-content .edit-form-table #twitter-area td.label-cell  {
+	width: 30px;
+	padding: 5px 8px 0 0;
+}
+
+#pe-backend-content a.run-report:link {margin: 0 10px 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 127px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/report.gif') no-repeat; background-position: 10px 0; background-color: #94bfc6;  float: right;}
+#pe-backend-content a.run-report:visited {margin: 0 10px 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 127px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/report.gif') no-repeat; background-position: 10px 0; background-color: #94bfc6;  float: right;}
+#pe-backend-content a.run-report:hover {margin: 0 10px 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 127px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/report.gif') no-repeat; background-position: 10px 0; background-color: #8fb1b6;  float: right;}
+#pe-backend-content a.run-report:active {margin: 0 10px 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 127px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/report.gif') no-repeat; background-position: 10px 0; background-color: #8fb1b6;  float: right;}
+
+#pe-backend-content .edit-form-table#settings-table table {
+	width: 580px;
+}
+
+#pe-backend-content .edit-form-table#settings-table td {
+	height: 30px;
+}
+
+#pe-backend-content .edit-form-table#settings-table input, #pe-backend-content .edit-form-table#settings-table select {
+	float: left;
+}
+
+#pe-backend-content .edit-form-table#settings-table input.submit {
+	float: none;
+}
+
+#pe-backend-content .edit-form-table#settings-table table#swatches {
+	width: 420px;
+}
+
+#pe-backend-content .edit-form-table#settings-table table#swatches td{
+	height: 32px;
+}
+
+#pe-backend-content .edit-form-table#settings-table table#swatches .color_swatch {
+	border: 2px solid #fff;
+	width: 69px;
+	display: inline-block;
+}
+
+#pe-backend-content .edit-form-table#settings-table td.label-cell {
+	padding: 5px 8px 0 0;
+	width: 120px;
+	text-align: right;
+}
+
+#pe-backend-content .edit-form-table .description {
+	padding: 3px 0 0 8px;
+	display: inline-block;

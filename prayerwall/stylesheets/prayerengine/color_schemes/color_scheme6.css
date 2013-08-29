@@ -1,0 +1,158 @@
+/* Prayer Engine - Blue and Gray Color Scheme */
+
+/* ---------- PRAYER REQUEST FORM ---------- */
+
+#pe-submit-container { /* Background color of the title bar at the top */
+	background-color: #fff;
+}
+
+#pe-form-container { /* Background color for the form */
+	background-color: #e8e8e8;
+	border-top: 1px dotted #9e9e9e;	
+}
+
+#pe-submit-area { /* Background color for the submit area at the bottom of the form */
+	background-color: #cdcdcd;
+}
+
+/* Main submit bar at the top of the form area */
+
+#pe-submit-container #pe-share-button { /* Colors for the button that toggles the form display */
+	color: #fff;
+	background-color: #cdcdcd;
+}
+
+#pe-submit-container h2 { /* Color of the title */
+	color: #000;
+}
+
+/* Instructions */
+
+#pe-form-container p.instructions { /* Color of the instructions text */
+	color: #000;
+}
+
+/* Label styles for the form */
+
+#pe-form-container label { /* Color of the form labels */
+	color: #000;
+}
+
+#pe-form-container label.checkbox { /* Color of the labels for the checkboxes at the bottom */
+	color: #000;
+}
+
+#pe-form-container label.error { /* Color of the JavaScript Error messages */
+	color: #ff0033;
+}
+
+/* Input styles for the form */
+
+#pe-form-container input, #pe-form-container textarea, #pe-form-container select { /* Color of the form fields */
+	border: 2px solid #cdcdcd;
+	color: #000;
+}
+
+#pe-form-container input.submit { /* Colors of the form submit button */
+	background-color: #345ca7;
+	border: 2px solid #345ca7;
+	color: #fff;
+}
+
+#pe-form-container input.error, #pe-form-container textarea.error { /* Color of the fields when an error exists */
+	border: 2px solid #ff0033;
+	color: #000;
+}
+
+/* Twitter field counter */
+
+#pe-form-container #pe-twitter-area p.twitter-counter { /* Color of the Twitter counter */
+	color: #000;
+}
+
+/* PHP Error and Success Messages */
+
+#pe-form-container #errors { /* Colors for the PHP error message field */
+	background-color: #ff0033;
+	color: #fff;
+}
+
+#pe-form-container #success {
+	background-color: #345ca7;
+	color: #fff;
+}
+
+/* ---------- PRAYER REQUEST LISTS ---------- */
+
+.pe-prayer-even { /* Colors for the alternating rows of prayer requests */
+	background-color: #e8e8e8;
+	border-bottom: 1px dotted #9e9e9e;
+}
+
+.pe-prayer-odd { /* "" */
+	border-bottom: 1px dotted #9e9e9e;
+}
+
+.pe-prayer-even h3, .pe-prayer-odd h3 { /* Prayer request titles */
+	color: #000;
+}
+
+.pe-prayer-even p, .pe-prayer-odd p { /* Color of prayer request text */
+	color: #000;
+}
+
+.pe-prayer-even h4, .pe-prayer-odd h4 { /* Color of date stamp at the bottom of prayer requests */
+	color: #919191;
+}
+
+.pe-count-area h4 { /* Color of prayer count text */
+	color: #345ca7;
+}
+
+.pe-count-area h4 strong { /* Color of prayer count after "I prayed for this" is clicked */
+	color: #000;
+}
+
+.pe-count-area a.submitlink { /* Color of "I prayed for this" button */
+	color: #fff;
+}
+
+.pe-count-area a.submitlink:link {background-color: #345ca7;}
+.pe-count-area a.submitlink:visited {background-color: #345ca7;}
+.pe-count-area a.submitlink:hover {background-color: #25498e;}
+.pe-count-area a.submitlink:active {background-color: #25498e;}
+
+.pe-count-area blockquote { /* Color of disabled "I prayed for this" button */
+	background-color: #cbc8c3;
+	color: #fff;
+}
+
+
+
+/* ---------- PAGINATION ---------- */
+
+.pe-pagination .pe-current-page { /* Color of current page */
+	border: 1px solid #345ca7;
+	background-color: #345ca7;
+	color: #fff;
+}
+
+.pe-pagination a:link {color: #345ca7; border: 1px solid #fff;} /* Color of other pagination links */
+.pe-pagination a:visited {color: #345ca7; border: 1px solid #fff;}
+.pe-pagination a:hover {color: #345ca7; border: 1px solid #345ca7;}
+.pe-pagination a:active {color: #fff; border: 1px solid #345ca7; background-color: #345ca7;}
+
+/* --------- PRAYER ENGINE BRANDING ---------- */
+
+h3#powered_by a {
+	background: url('../../../images/prayerengine/structure/frontend/GrayPoweredBy_PE.gif') no-repeat;
+}
+
+p#copyright {
+	color: #d6d6d6;
+}
+
+p#copyright a:link {color: #d6d6d6;}
+p#copyright a:visited {color: #d6d6d6;}
+p#copyright a:hover {color: #8c8c8c;}
+p#copyright a:active {color: #8c8c8c;}

@@ -1,0 +1,11 @@
+
+<ul id="subNav">
+  <li class="current" id="subNav_services"><a href="/services/">Services</a>
+    <ul>
+    <li id="subNav_services_sunday-celebration-services"><a href="/services">Sunday Celebration Services</a></li>
+    <li id="subNav_services_wednesdays-midweek-connection"><a href="/services/wednesdays-midweek-connection/">Wednesday's Midweek Connection</a></li>
+    <li id="subNav_japanesefellowshipchurch"><a href="/japanesefellowshipchurch/">Japanese Fellowship Church</a></li>
+    <li id="subNav_services_seven"><a href="/services/seven/">SEVEN: Seven Days of Praying and Fasting for Our City</a></li>
+    </ul>
+  </li>
+</ul>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+  <album title="Worship Slideshow : Introduction to who we are" lgpath="mediafiles/" tnpath="mediafiles/" description="This is for the home page of " tn="http://pcctoday.monkcms.net/mediafiles/SMALL-header--about--visiting.jpg" >
+    <img src="header--about--visiting.jpg" link="" target="_self" />
+    <img src="sample-header-image.jpg" link="" target="_self" />
+    <img src="header--care--serve--serving-globally.jpg" link="http://pcctoday.monkcms.net/care--serve/serve/serving-globally/" target="_self" />
+  </album>
+</gallery>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+  <album title="Test Header Gallery" lgpath="mediafiles/" tnpath="mediafiles/" description="" tn="http://pcctoday.monkcms.net/mediafiles/SMALL-podcast--prayer-sermon-series.png" >
+    <img src="sample-header-image.jpg" link="" target="_self" />
+    <img src="podcast--prayer-sermon-series.png" link="" target="_self" />
+  </album>
+</gallery>

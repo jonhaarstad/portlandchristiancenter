@@ -1,0 +1,62 @@
+<!doctype html>
+<!-- <html manifest="/mobile/mobile.manifest"> -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">	
+    <title>Portland Christian Center</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="public/resources/images/webclipicn.png"/>   
+	<link rel="apple-touch-icon" sizes='114x114' href="public/resources/images/webclipicn-retina.png"/> 
+	
+	<link rel="apple-touch-startup-image" href="public/resources/images/startupimage.jpg"/>  
+    <link rel="stylesheet" href="lib/touch/resources/css/monk.css" />
+    <!-- <link rel="stylesheet" href="public/resources/css/application.css"> -->
+</head>
+<body>
+    <script src="lib/touch/sencha-touch.js"></script>
+    <script src="lib/touch/pkgs/platform/mvc.js"></script>
+    
+    <div id="sencha-app"> 
+        <script src="app2/routes.js"></script>
+        <script src="app2/app.js"></script>
+        <script src="app2/setup.js"></script>
+        <script src="app2/audiocontrols.js"></script>  
+        
+        <!-- Place your model files here -->
+        <div id="sencha-models">
+           <script src="app2/models/Media.js"></script>
+           <script src="app2/models/Articles.js"></script>
+           <script src="app2/models/Blogs.js"></script>
+           <script src="app2/models/Events.js"></script>
+  		   <script src="app2/models/Galleries.js"></script>
+		   <script src="app2/models/Photos.js"></script>
+        </div>
+        
+        <!-- Place your controller files here -->
+        <div id="sencha-controllers">
+               <script src="app2/controllers/Media.js"></script> 
+               <script src="app2/controllers/Section.js"></script> 
+               <script src="app2/controllers/Articles.js"></script>
+               <script src="app2/controllers/Blogs.js"></script>
+               <script src="app2/controllers/Events.js"></script> 
+               <script src="app2/controllers/Link.js"></script> 
+               <script src="app2/controllers/Welcome.js"></script>
+			   <script src="app2/controllers/Galleries.js"></script> 
+        </div>
+        
+        <!-- Place your view files here -->
+        <div id="sencha-views">
+            <script src="app2/views/Viewport.js"></script>
+            <script src="app2/views/defaults/ListPanel.js"></script> 
+            <script src="app2/views/defaults/ListDetailPanel.js"></script> 
+            <script src="app2/views/defaults/Welcome.js"></script> 
+            <script src="app2/views/section/SectionDetail.js"></script>
+  			<script src="app2/views/photos/Photos.js"></script>
+  			<script src="app2/views/photos/PhotosDetail.js"></script>
+        </div>
+    </div>
+</body>
+</html>

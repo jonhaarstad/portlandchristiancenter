@@ -1,0 +1,17 @@
+
+<ul id="subNav">
+  <li class="current" id="subNav_extras"><a href="/extras/">Extras</a>
+    <ul>
+    <li id="subNav_extras_amazon-store"><a href="/extras/amazon-store/">Amazon Store</a></li>
+    <li id="subNav_extras_sermons-download"><a href="/extras/sermons-download/">Sermons Download</a></li>
+    <li id="subNav_live"><a href="/live/">Live Streaming at Portland Christian Center</a></li>
+    <li id="subNav_extras_pastor-rays-blog"><a href="http://raynoah.com" target="_blank">Pastor Ray's Blog</a></li>
+    <li class="current" id="subNav_calendar"><a href="/calendar/">Calendar</a></li>
+    <li id="subNav_extras_pcctoday-newsletter"><a href="/extras/pcctoday-newsletter/">PCCToday Newsletter</a></li>
+    <li id="subNav_store"><a href="/store/">Online Store</a></li>
+    <li id="subNav_extras_portland-christian-centers-business-directory"><a href="/extras/portland-christian-centers-business-directory/">Portland Christian Center's Business Directory</a></li>
+    <li id="subNav_extras_pcc-photo-club"><a href="/extras/pcc-photo-club/">PCC Photo Club</a></li>
+    <li id="subNav_extras_articles"><a href="/extras/articles/">Articles</a></li>
+    </ul>
+  </li>
+</ul>

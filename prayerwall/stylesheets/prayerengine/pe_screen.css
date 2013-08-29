@@ -1,0 +1,325 @@
+/* Prayer Engine - Styles for Main Prayer Wall - EDIT AT YOUR OWN RISK */
+
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body#prayerengine {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* enables you to easily size text with ems */
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#prayerengine h1, #prayerengine h2, #prayerengine h3, #prayerengine h4, #prayerengine h5, #prayerengine h6, #prayerengine p, #prayerengine form, #prayerengine ul, #prayerengine ol, #prayerengine li, #prayerengine blockquote { /* resets most browser styles to enhance cross-browser compatibility */
+	margin: 0;
+	padding: 0;
+}
+	
+
+/* ---------- Prayer Engine Structure ---------- */
+
+#pe-container {
+	width: 550px;
+	margin: 0 auto 0 auto;
+	padding: 20px 0 20px 0;
+}
+
+/* ---------- PRAYER REQUEST FORM ---------- */
+
+#pe-submit-container {
+	padding: 10px 0 0 0;
+}
+
+#pe-form-header {
+	height: 36px;
+}
+
+#pe-form-container {
+	padding: 0;
+	display: none;
+}
+
+#pe-twitter-area {
+}
+
+#pe-submit-area {
+	text-align: right;
+	margin: 10px 0 0 0;
+	padding: 10px 10px 10px 8px;
+}
+
+/* Main submit bar at the top of the form area */
+
+#pe-submit-container #pe-share-button { 
+	width: 220px;
+	height: 20px;
+	padding: 6px 0 0 0;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 1.2em;
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+#prayerengine #pe-submit-container h2 {
+	margin: 0 0 11px 0;
+	font-size: 2em;
+	padding: 1px 0 0 0;
+}
+
+/* Instructions */
+
+#prayerengine #pe-form-container p.instructions {
+	font-size: 1.2em;
+	line-height: 130%;
+	margin: 0 0 15px 0;
+	padding: 10px 15px 0 15px;
+	height: 42px;
+}
+
+/* Table styles to nicely space the form */
+
+#pe-form-container table {
+	margin: 0 0 0 7px;
+}
+
+#pe-form-container td {
+	padding: 5px;
+}
+
+#pe-form-container td.label {
+	text-align: right;
+	width: 78px;
+	vertical-align: top;
+	padding: 10px 5px 0 0;
+}
+
+#pe-form-container td.inputcell {
+	vertical-align: top;
+}
+
+#pe-form-container td.prayercell {
+
+}
+
+/* Label styles for the form */
+
+#pe-form-container label {
+	font-size: 1.3em;
+}
+
+#pe-form-container label.checkbox {
+	font-size: 1.2em;
+	padding: 0 5px 0 0;
+}
+
+#pe-form-container label.error {
+	display: block;
+	padding: 2px 0 0 0;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+/* Input styles for the form */
+
+#pe-form-container input, #pe-form-container textarea, #pe-form-container select {
+	font-family: Arial, Helvetica;
+	font-size: 1.3em;
+	padding: 3px;
+}
+
+#pe-form-container input {
+	width: 250px;
+}
+
+#pe-form-container input.check {
+	width: 13px;
+}
+
+#pe-form-container input.submit {
+	width: 150px;
+	margin: 0 0 0 10px;
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+#pe-form-container textarea {
+	width: 420px;
+}
+
+#pe-form-container textarea#prayer {
+	height: 140px;
+}
+
+/* Styles for the optional Twitter area */
+
+#pe-form-container #pe-twitter-area textarea {
+	width: 420px;
+	height: 50px;
+}
+
+#prayerengine #pe-form-container #pe-twitter-area p.twitter-counter {
+	padding: 2px 0 0 0;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+/* PHP Error and Success Messages */
+
+#pe-form-container #errors {
+	width: 100%;
+	padding: 10px 0 5px 0;
+}
+
+#prayerengine #pe-form-container #errors p {
+	font-size: 1.3em;
+	margin: 0 0 5px 10px;
+	font-weight: 700;
+}
+
+#prayerengine #pe-form-container #errors ul li {
+	margin: 0 10px 5px 30px;
+	font-size: 1.3em;
+}
+
+#pe-form-container #success {
+	width: 100%;
+	padding: 10px 0 10px 0;
+}
+
+#prayerengine #pe-form-container #success p {
+	font-size: 1.3em;
+	margin: 0 10px 0 10px;
+	font-weight: 700;
+}
+
+/* ---------- PRAYER REQUEST LISTS ---------- */
+
+#pe-prayer-list {
+	margin: 15px 0 15px 0;
+}
+
+.pe-prayer-even {
+	padding: 10px;
+}
+
+.pe-prayer-odd {
+	padding: 10px;
+}
+
+#prayerengine .pe-prayer-even h3, #prayerengine .pe-prayer-odd h3 {
+	font-size: 1.6em;
+	margin: 0 0 10px 0;
+	padding: 2px 0 0 0;
+}
+
+#prayerengine .pe-prayer-even p, #prayerengine .pe-prayer-odd p {
+	font-size: 1.2em;
+	margin: 0 0 12px 0;
+	padding: 0 10px 0 10px;
+	line-height: 130%;
+	clear: right;
+}
+
+#prayerengine .pe-prayer-even h4, #prayerengine .pe-prayer-odd h4 {
+	font-size: 1em;
+}
+
+.pe-count-area {
+	float: right;
+	width: 290px;
+	margin: 0 0 10px 0;
+}
+
+#prayerengine .pe-count-area h4 {
+	font-size: 1.2em;
+	font-weight: 300;
+	text-align: right;
+	padding: 6px 0 0 0;
+}
+
+.pe-count-area a.submitlink {
+	display: block;
+	width: 134px;
+	height: 20px;
+	padding: 6px 0 0 0;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 1.2em;
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+#prayerengine .pe-count-area blockquote {
+	display: block;
+	width: 134px;
+	height: 20px;
+	padding: 6px 0 0 0;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size: 1.2em;
+	float: right;
+	margin: 0 0 0 20px;
+}
+
+/* ---------- PAGINATION ---------- */
+
+.pe-pagination {
+	text-align: center;
+	margin: 15px auto 0 auto;
+	font-size: 1.2em;
+	display: table;
+}
+
+.pe-pagination .pe-current-page {
+	display: block;
+	text-decoration: none;
+	padding: 3px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+}
+
+.pe-pagination a {
+	display: block;
+	text-decoration: none;
+	padding: 3px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+}
+
+/* --------- PRAYER ENGINE BRANDING ---------- */
+
+h3#powered_by {
+	width: 120px;
+	height: 53px;
+	margin: 20px auto 0 auto;
+}
+
+h3#powered_by a {
+	display: block;
+	width: 120px;
+	height: 53px;
+	text-indent: -9000px;
+}
+
+p#copyright {
+	font-size: 1em;
+	text-align: center;
+	padding: 6px 0 0 0;
+}
+
+p#copyright a:link {text-decoration: none;}
+p#copyright a:visited {text-decoration: none;}
+p#copyright a:hover {text-decoration: none;}
+p#copyright a:active {text-decoration: none;}

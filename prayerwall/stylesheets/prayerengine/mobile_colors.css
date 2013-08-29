@@ -1,0 +1,158 @@
+/* Prayer Engine - Mobile Colors - EDIT TO RESKIN! */
+
+body {
+	background-color: #ededed;
+	color: #67675d;
+}
+
+a:link {color: #801728;} /* Plain link colors */
+a:visited {color: #801728;}
+a:hover {color: #801728;}
+a:active {color: #801728;}
+
+/* ---------- Header and Nav ---------- */
+
+#header { /* Color behind your logo */
+	background-color: #393939;
+}
+
+h1#full-link a:link {color: #fff; background-color: #80a5ab; text-shadow: 1px 1px #6f6f6f;} /* Colors for link to full site at the top */
+h1#full-link a:visited {color: #fff; background-color: #80a5ab; text-shadow: 1px 1px #6f6f6f;}
+h1#full-link a:hover {color: #fff; background-color: #80a5ab; text-shadow: 1px 1px #6f6f6f;}
+h1#full-link a:active {color: #fff; background-color: #80a5ab; text-shadow: 1px 1px #6f6f6f;}
+
+#header .logo a:link {background: url('../../images/prayerengine/mobile/structure/logo.jpg') no-repeat;} /* Logo on app - currently set to be 320x147 - update size in mobile.css if you change it */
+#header .logo a:visited {background: url('../../images/prayerengine/mobile/structure/logo.jpg') no-repeat;}
+#header .logo a:hover {background: url('../../images/prayerengine/mobile/structure/logo.jpg') no-repeat;}
+#header .logo a:active {background: url('../../images/prayerengine/mobile/structure/logo.jpg') no-repeat;}
+
+/* ---------- Main Page Area ---------- */
+
+#main-page { /* Background color of main page */
+	background-color: #fff;
+}
+
+.content { /* Background color of content */
+	background-color: #fff;
+}
+
+h3.title-divider { /* Colors of the title below your logo */
+	color: #4b4b4b;
+	background-color: #B4B4B4;
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 1px solid #6C6C6C;
+}
+
+/* List of Prayer Requests on Main Page */
+
+a.submit-your-request {background-color: #801728; color: #fff; text-shadow: #666 0 1px 1px;} /* Colors of the "Sumbit Your Request" button */
+
+/* Colors and styles for prayer requests in the list */
+#main-page .content ul li a.ajax-link {color: #000; background-color: #fff; background: url('../../images/prayerengine/mobile/structure/more_arrow.jpg') no-repeat; background-position: right center; border-top: 1px solid #d9d9d9;}
+
+/* Colors and styles for the first prayer request in the list */
+#main-page .content ul li.noborder a.ajax-link{color: #000; background-color: #fff; background: url('../../images/prayerengine/mobile/structure/more_arrow.jpg') no-repeat; background-position: right center; border-top: none;}
+
+/* Colors and styles for prayer request while it's loading */
+#main-page .content ul li a.ajax-link.loading {background: url('../../images/prayerengine/mobile/loading.gif') no-repeat; background-position: center right;}
+
+#main-page .content ul li { /* each prayer request in list */
+	border-bottom: 1px solid #fff;
+	background-color: #fff;
+}
+
+#main-page .content ul li a h3, #main-page .content ul li h3 { /* From */
+	color: #801728;
+}
+
+#main-page .content ul li a p, #main-page .content ul li p { /* Prayer request snippet */
+	color: #6c6c6c;
+}
+
+/* ---------- Selected Item Area (Where AJAX content is displayed) ---------- */
+
+#selected-item {
+	background-color: #fff;
+}
+
+/* Styles for Individual Prayer Subpages */
+
+.prayertext, #selected-item .prayertext { /* background for prayer requests */
+	background-color: #fff;
+}
+
+.prayer-header { /* Background of From and Date */
+	background-color: #B4B4B4;
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 1px solid #6C6C6C;
+}
+
+.prayer-header h2 { /* Prayer Request From/ Title of Prayer Form */
+	color: #4b4b4b;
+}
+
+.prayer-header h3 { /* Prayer Request Date Received */
+	color: #727272;
+}
+
+.prayertext p {
+	color: #6c6c6c;
+}
+
+.prayertext h3, .prayertext h4 {
+	color: #801728;
+}
+
+.prayertext h5 {
+	color: #464646;
+}
+
+.prayertext ul, ol {
+	color: #6c6c6c;
+}
+
+#selected-item .sub-nav { /* Background for the back button at the top */
+	background-color: #393939;
+}
+
+#selected-item a.back-link { /* Color of the Back link itself */
+	background-color: #801728;
+	color: #fff;
+}
+
+a.prayer-link {background-color: #801728; color: #fff;} /* Colors for "I Prayed for This" button */
+p.thanks-for-praying {background-color: #94bfc6; color: #fff;}
+
+p.prayed-for, p.prayed-for-after {color: #801728;} /* Colors for Prayer Count Text */
+p.prayed-for-after strong {color: #6c6c6c;}
+
+/* Prayer Submit Form */
+
+p.form-thanks { /* Colors for message after prayer submitted */
+	color: #6d8c91;
+	background-color: #fff;
+}
+
+.prayer-submit-table label { /* Form labels */
+	color: #6d8c91;
+}
+
+.prayer-submit-table label.error { /* Error messages on form */
+	color: #801728;
+}
+
+.prayer-submit-table td.radioanswer {
+	color: #6C6C6C;
+}
+
+.twitter-counter {
+	color: #6C6C6C;
+}
+
+a.prayer-form-submit {background-color: #801728; color: #fff; text-shadow: #666 0 1px 1px;} /* Colors for Submit Button */
+a.prayer-form-submit.working {background-color: #C7C5B6; color: #fff; text-shadow: #666 0 1px 1px;}
+
+/* More Prayers Link */
+
+h3.more-prayers-link a {color: #fff; background-color: #94BFC6;} /* Colors for button that loads more prayer requests */
+h3.more-prayers-link.loading a {color: #fff; background: url('../../images/prayerengine/mobile/structure/loading_prayers.gif') no-repeat; background-position: center; background-color: #94BFC6;}

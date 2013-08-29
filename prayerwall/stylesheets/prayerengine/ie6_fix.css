@@ -1,0 +1,53 @@
+/* Prayer Engine - Fixes for IE6's terrible page rendering */
+
+/* Fix submit area spacing */
+
+#pe-submit-container #pe-share-button { 
+	margin: 0 0 0 20px;
+}
+
+#pe-submit-container h2 {
+	margin: 0 0 10px 10px;
+	font-size: 2em;
+}
+
+#pe-form-container input.check {
+	width: 16px;
+	display: block;
+	float: left;
+	margin: 6px 4px 0 3px;
+	border: 0;
+}
+
+#pe-form-container label.checkbox {
+	padding: 8px 5px 0 0;
+	display: block;
+	float: left;
+}
+
+#pe-form-container input.submit {
+	margin: 0 0 0 6px;
+}
+
+.ie6-spacer {
+	height: 2px;
+	background-color: #fff;
+	margin: 0 0 -10px 0;
+}
+
+
+/* Pagination */
+
+.pe-pagination {
+	margin: 15px 0 25px 0;
+}
+
+.pe-pagination a:link {text-decoration: none;}
+.pe-pagination a:visited {text-decoration: none;}
+.pe-pagination a:hover {text-decoration: none;}
+.pe-pagination a:active {text-decoration: none;}
+
+.pe-count-area {
+	margin: 0 0 4px 0;
+}
+

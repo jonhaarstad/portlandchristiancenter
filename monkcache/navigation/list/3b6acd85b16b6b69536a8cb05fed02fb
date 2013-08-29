@@ -1,0 +1,73 @@
+
+<ul id="nav">
+  <li id="nav_about"><a href="/about/">About</a>
+    <ul>
+    <li id="nav_about_our-mission"><a href="/about/our-mission/">Our Mission</a></li>
+    <li id="nav_about_our-beliefs"><a href="/about/our-beliefs/">Our Beliefs</a></li>
+    <li id="nav_about_meet-our-pastors-and-staff"><a href="/about/meet-our-pastors-and-staff/">Meet Our Pastors and Staff</a></li>
+    <li id="nav_about_careers--pcc"><a href="/about/careers--pcc/">Careers @ PCC</a></li>
+    <li id="nav_unleashed"><a href="/unleashed/">Unleashed: Debt Reduction Campaign</a></li>
+    <li id="nav_giving"><a href="/giving/">Giving</a></li>
+    <li id="nav_about_contact-us"><a href="/about/contact-us/">Contact Us</a></li>
+  </ul>
+  </li>
+  <li id="nav_services"><a href="/services/">Services</a>
+    <ul>
+    <li id="nav_services_sunday-celebration-services"><a href="/services">Sunday Celebration Services</a></li>
+    <li id="nav_services_wednesdays-midweek-connection"><a href="/services/wednesdays-midweek-connection/">Wednesday's Midweek Connection</a></li>
+    <li id="nav_japanesefellowshipchurch"><a href="/japanesefellowshipchurch/">Japanese Fellowship Church</a></li>
+    <li id="nav_services_seven"><a href="/services/seven/">SEVEN: Seven Days of Praying and Fasting for Our City</a></li>
+  </ul>
+  </li>
+  <li id="nav_connect-next-steps"><a href="/connect-next-steps/">CONNECT Next Steps</a></li>
+  <li class="current" id="nav_ministries"><a href="/ministries/">Ministries</a>
+    <ul>
+    <li id="nav_ministries_children"><a href="/ministries/children/">Children</a></li>
+    <li class="current" id="nav_revolution"><a href="/revolution/">Middle School</a></li>
+    <li id="nav_unveiled"><a href="/unveiled/">High School</a></li>
+    <li id="nav_a2"><a href="/a2/">Young Adults: A2</a></li>
+    <li id="nav_ministries_young-families"><a href="/ministries/young-families/">Young Families</a></li>
+    <li id="nav_ministries_adult-education"><a href="/ministries/adult-education/">Adult Education</a></li>
+    <li id="nav_active-adults"><a href="/active-adults/">Active Adults - 55+</a></li>
+    <li id="nav_singles"><a href="/singles/">Singles</a></li>
+    <li id="nav_ministries_men"><a href="/ministries/men/">Men</a></li>
+    <li id="nav_ministries_women"><a href="/ministries/women/">Women</a></li>
+    <li id="nav_ministries_music-and-worship"><a href="/ministries/music-and-worship/">Music and Worship</a></li>
+    <li id="nav_schoolofmusic"><a href="/schoolofmusic/">School of Music</a></li>
+    <li id="nav_ministries_sports"><a href="/ministries/sports/">Sports Ministry</a></li>
+    <li id="nav_hilltop"><a href="/hilltop/">HILLTOP Preschool and Kindergarten</a></li>
+  </ul>
+  </li>
+  <li id="nav_support"><a href="/support/">Support</a>
+    <ul>
+    <li id="nav_theprayerwall"><a href="/theprayerwall/">The Prayer Wall</a></li>
+    <li id="nav_support_urgent-care-network"><a href="/support/urgent-care-network/">Urgent Care Network</a></li>
+    <li id="nav_support_life-events"><a href="/support/life-events/">Life Events</a></li>
+    <li id="nav_care_compassion"><a href="/care/compassion/">Compassion and Support</a></li>
+    <li id="nav_support_biblical-counseling"><a href="/support/biblical-counseling/">Biblical Counseling</a></li>
+    <li id="nav_support_professional-counseling-services"><a href="/support/professional-counseling-services/">Professional Counseling Services</a></li>
+    <li id="nav_lifelearning_marriage"><a href="/lifelearning/marriage/" target="_blank">Pre-Martial, Enrichment, Restoration Coaching</a></li>
+  </ul>
+  </li>
+  <li id="nav_outreach"><a href="/outreach/">Outreach</a>
+    <ul>
+    <li id="nav_outreach_serve-within-the-church"><a href="/outreach/serve-within-the-church/">Serve Within The Church</a></li>
+    <li id="nav_serve_serving-locally"><a href="/serve/serving-locally/">Serve In Our Community</a></li>
+    <li id="nav_serve_serving-globally"><a href="/serve/serving-globally/">Serve Around the World</a></li>
+  </ul>
+  </li>
+  <li id="nav_extras"><a href="/extras/">Extras</a>
+    <ul>
+    <li id="nav_extras_amazon-store"><a href="/extras/amazon-store/">Amazon Store</a></li>
+    <li id="nav_extras_sermons-download"><a href="/extras/sermons-download/">Sermons Download</a></li>
+    <li id="nav_live"><a href="/live/">Live Streaming at Portland Christian Center</a></li>
+    <li id="nav_extras_pastor-rays-blog"><a href="http://raynoah.com" target="_blank">Pastor Ray's Blog</a></li>
+    <li id="nav_calendar"><a href="/calendar/">Calendar</a></li>
+    <li id="nav_extras_pcctoday-newsletter"><a href="/extras/pcctoday-newsletter/">PCCToday Newsletter</a></li>
+    <li id="nav_store"><a href="/store/">Online Store</a></li>
+    <li id="nav_extras_portland-christian-centers-business-directory"><a href="/extras/portland-christian-centers-business-directory/">Portland Christian Center's Business Directory</a></li>
+    <li id="nav_extras_pcc-photo-club"><a href="/extras/pcc-photo-club/">PCC Photo Club</a></li>
+    <li id="nav_extras_articles"><a href="/extras/articles/">Articles</a></li>
+    </ul>
+  </li>
+</ul>

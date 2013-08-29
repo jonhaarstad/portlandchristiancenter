@@ -1,0 +1,19 @@
+
+<ul id="subNav">
+  <li class="current" id="subNav_about"><a href="/about/">About</a>
+    <ul>
+    <li id="subNav_about_our-mission"><a href="/about/our-mission/">Our Mission</a></li>
+    <li id="subNav_about_our-beliefs"><a href="/about/our-beliefs/">Our Beliefs</a></li>
+    <li class="current" id="subNav_about_meet-our-pastors-and-staff"><a href="/about/meet-our-pastors-and-staff/">Meet Our Pastors and Staff</a>
+      <ul>
+      <li id="subNav_about_meet-our-pastors-and-staff_all-staff-directory"><a href="/about/meet-our-pastors-and-staff/all-staff-directory/">All Staff Directory</a></li>
+      <li id="subNav_about_meet-our-pastors-and-staff_board-of-deacons"><a href="/about/meet-our-pastors-and-staff/board-of-deacons/">Board of Deacons</a></li>
+    </ul>
+    </li>
+    <li id="subNav_about_careers--pcc"><a href="/about/careers--pcc/">Careers @ PCC</a></li>
+    <li id="subNav_unleashed"><a href="/unleashed/">Unleashed: Debt Reduction Campaign</a></li>
+    <li id="subNav_giving"><a href="/giving/">Giving</a></li>
+    <li id="subNav_about_contact-us"><a href="/about/contact-us/">Contact Us</a></li>
+    </ul>
+  </li>
+</ul>

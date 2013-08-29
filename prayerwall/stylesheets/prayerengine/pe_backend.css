@@ -1,0 +1,879 @@
+/* Prayer Engine - Styles for the Administrative Backend */
+
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* enables you to easily size text with ems */
+	font-family: Arial, Helvetica, sans-serif;
+	color: #515151;
+	background: url('../../images/prayerengine/structure/backend/pe_background.jpg');
+	background-color: #e7e7e7;
+}
+
+body#report {
+	background: none;
+	background-color: #fff;
+	color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, h7, p, form, ul, ol, li, blockquote { /* resets most browser styles to enhance cross-browser compatibility */
+	margin: 0;
+	padding: 0;
+}
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
+
+/* ---------- Login Page ---------- */
+
+body#login #login-area {
+	width: 360px;
+	margin: 100px auto 20px auto;
+	padding: 181px 20px 20px 20px;
+	background: url('../../images/prayerengine/structure/backend/pe_logo.jpg') no-repeat;
+	background-color: #fff;
+	-moz-box-shadow: 2px 2px 0 #aaaaaa;
+	-webkit-box-shadow: 2px 2px 0 #aaaaaa;
+}
+
+body#login #login-area #messages {
+	margin: 0 -20px 0 -20px;
+	background-color: #c8c8c8;
+}
+
+body#login #login-area p.message {
+	text-align: center;
+	padding: 8px 0 8px 0;
+	margin: 0;
+	font-size: 1.4em;
+	font-weight: 700;
+	color: #fff;
+	background-color: #94bfc6;
+}
+
+body#login #login-area p.error {
+	text-align: center;
+	padding: 8px 0 8px 0;
+	margin: 0 -20px 0 -20px;
+	font-size: 1.4em;
+	color: #fff;
+	background-color: #7e192b;
+}
+
+body#login #login-area table {
+	width: 360px;
+	margin: 20px 0 0 0;
+}
+
+body#login #login-area td {
+	vertical-align: top;
+}
+
+body#login #login-area td.label-cell {
+	vertical-align: top;
+	text-align: right;
+	padding: 7px 8px 15px 0;
+	width: 122px;
+}
+
+body#login #login-area label {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+body#login #login-area label.error {
+	display: block;
+	font-size: 1.2em;
+	color: #7e192b;
+	margin: 0 0 10px 0;
+}
+
+body#login #login-area input{
+	width: 230px;
+	font-size: 1.6em;
+	border: 3px solid #c8c8c8;
+	padding: 3px;
+	margin: 0 0 3px 0;
+}
+
+body#login #login-area select {
+	width: 242px;
+	font-size: 1.6em;
+	border: 3px solid #c8c8c8;
+	padding: 2px;
+	margin: 0 0 5px 0;
+}
+
+body#login #login-area input.error {
+	border: 3px solid #7e192b;
+}
+
+body#login #login-area input.main-login-button {
+	display: block;
+	float: right;
+	width: 100px;
+	font-size: 1.5em;
+	font-weight: 700;
+	padding: 5px 0 5px 0;
+	margin: 0 1px 0 0;
+	color: #fff;
+	background-color: #7e192b;
+	border: none;
+}
+
+body#login #login-area a.login-trouble {
+	color: #7e192b;
+	font-size: 1.3em;
+	padding: 9px 0 0 0;
+	display: block;
+	width: 170px;
+	text-align: right;
+	margin: 0 0 0 75px;
+}
+
+/* ---------- Header for the Backend ---------- */
+
+#pe-backend-header {
+	background: url('../../images/prayerengine/structure/backend/pe_header_background.jpg') repeat-x;
+	height: 148px;
+}
+
+#pe-user-options {
+	width: 732px;
+	height: 24px;
+	margin: 0 auto;
+}
+
+#pe-user-options p.welcome {
+	color: #e7e7e7;
+	font-size: 1.1em;
+	padding: 7px 0 0 0;
+	text-transform: uppercase;
+}
+
+#pe-user-options ul {
+	margin: 0 15px 0 0 ;
+}
+
+#pe-user-options ul li {
+	list-style-type: none;
+	float: right;
+}
+
+#pe-user-options ul li a {color: #4c4c4c; font-size: 1.1em; text-transform: uppercase; text-decoration: none;}
+
+#pe-user-options ul li.logout a:link {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_lock.jpg') no-repeat;}
+#pe-user-options ul li.logout a:visited {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_lock.jpg') no-repeat;}
+#pe-user-options ul li.logout a:hover {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_lock.jpg') no-repeat; background-position: 0 -24px;}
+#pe-user-options ul li.logout a:active {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_lock.jpg') no-repeat; background-position: 0 -24px;}
+
+#pe-user-options ul li.live a:link {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_site.jpg') no-repeat;}
+#pe-user-options ul li.live a:visited {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_site.jpg') no-repeat;}
+#pe-user-options ul li.live a:hover {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_site.jpg') no-repeat; background-position: 0 -24px;}
+#pe-user-options ul li.live a:active {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_site.jpg') no-repeat; background-position: 0 -24px;}
+
+#pe-user-options ul li.account a:link {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_account.jpg') no-repeat;}
+#pe-user-options ul li.account a:visited {display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_account.jpg') no-repeat;}
+#pe-user-options ul li.account a:hover {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_account.jpg') no-repeat; background-position: 0 -24px;}
+#pe-user-options ul li.account a:active {color: #6d6d6d; display: block; height: 17px; padding: 7px 0 0 16px; margin: 0 0 0 20px; background: url('../../images/prayerengine/structure/backend/user_account.jpg') no-repeat; background-position: 0 -24px;}
+
+#pe-inner-header {
+	width: 732px;
+	margin: 0 auto;
+}
+
+#pe-inner-header h1 a {
+	display: block;
+	text-indent: -9000px;
+	width: 202px;
+	height: 116px;
+	background: url('../../images/prayerengine/structure/backend/prayer_engine_logo.jpg') no-repeat;
+}
+
+#pe-inner-header h2 {
+	float: right;
+	color: #94bfc6;
+	font-size: 3em;
+	font-weight: 300;
+	text-shadow: 3px 3px #3e3e3e;
+	padding: 42px 15px 0 0;
+}
+
+/* ---------- Backend Container ---------- */
+
+#pe-backend-container {
+	width: 732px;
+	margin: 25px auto 0 auto;
+}
+
+/* ---------- Navigation for Backend ---------- */
+
+ul#pe-backend-nav {
+	width: 102px;
+	float: left;
+	margin: 0;
+}
+
+ul#pe-backend-nav li {
+	width: 100px;
+	height: 100px;
+	list-style-type: none;
+	margin: 0 0 6px 0;
+}
+
+body ul#pe-backend-nav li a:link, body ul#pe-backend-nav li a:visited {
+	display: block;
+	width: 102px;
+	height: 20px;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 80px 0 0 0;
+	margin: 0 0 0 2px;
+	color: #a5a5a5;
+	text-decoration: none;
+}
+
+body ul#pe-backend-nav li a:hover, body ul#pe-backend-nav li a:active {
+	display: block;
+	width: 102px;
+	height: 20px;
+	font-size: 1.2em;
+	text-align: center;
+	padding: 80px 0 0 0;
+	margin: 0 0 0 2px;
+	color: #515151;
+	text-decoration: none;
+}
+
+ul#pe-backend-nav li.prayer a:link {color: #919191; background: url('../../images/prayerengine/structure/backend/btn_prayers.jpg') no-repeat; background-position: 0 -100px;}
+ul#pe-backend-nav li.prayer a:visited {color: #919191; background: url('../../images/prayerengine/structure/backend/btn_prayers.jpg') no-repeat; background-position: 0 -100px;}
+ul#pe-backend-nav li.prayer a:hover {color: #606060; background: url('../../images/prayerengine/structure/backend/btn_prayers.jpg') no-repeat; background-position: 0 -200px;}
+ul#pe-backend-nav li.prayer a:active {color: #606060; background: url('../../images/prayerengine/structure/backend/btn_prayers.jpg') no-repeat; background-position: 0 -200px;}
+body#prayer ul#pe-backend-nav li.prayer a {width: 102px; margin: 0; color: #7e192b; background: url('../../images/prayerengine/structure/backend/btn_prayers.jpg') no-repeat; background-position: top center; background-color: #fff; -moz-box-shadow: 2px 2px 0 #aaa; -webkit-box-shadow: 2px 2px 0 #aaa;}
+
+ul#pe-backend-nav li.report a:link {color: #919191; background: url('../../images/prayerengine/structure/backend/btn_reports.jpg') no-repeat; background-position: 0 -100px;}
+ul#pe-backend-nav li.report a:visited {color: #919191; background: url('../../images/prayerengine/structure/backend/btn_reports.jpg') no-repeat; background-position: 0 -100px;}
+ul#pe-backend-nav li.report a:hover {color: #606060; background: url('../../images/prayerengine/structure/backend/btn_reports.jpg') no-repeat; background-position: 0 -200px;}
+ul#pe-backend-nav li.report a:active {color: #606060; background: url('../../images/prayerengine/structure/backend/btn_reports.jpg') no-repeat; background-position: 0 -200px;}
+body#reports ul#pe-backend-nav li.report a {width: 102px; margin: 0; color: #7e192b; background: url('../../images/prayerengine/structure/backend/btn_reports.jpg') no-repeat; background-position: top center; background-color: #fff; -moz-box-shadow: 2px 2px 0 #aaa; -webkit-box-shadow: 2px 2px 0 #aaa;}
+
+ul#pe-backend-nav li.user a:link {color: #919191; background: url('../../images/prayerengine/structure/backend/btn_users.jpg') no-repeat; background-position: 0 -100px;}
+ul#pe-backend-nav li.user a:visited {color: #919191; background: url('../../images/prayerengine/structure/backend/btn_users.jpg') no-repeat; background-position: 0 -100px;}
+ul#pe-backend-nav li.user a:hover {color: #606060; background: url('../../images/prayerengine/structure/backend/btn_users.jpg') no-repeat; background-position: 0 -200px;}
+ul#pe-backend-nav li.user a:active {color: #606060; background: url('../../images/prayerengine/structure/backend/btn_users.jpg') no-repeat; background-position: 0 -200px;}
+body#user ul#pe-backend-nav li.user a {width: 102px; margin: 0; color: #7e192b; background: url('../../images/prayerengine/structure/backend/btn_users.jpg') no-repeat; background-position: top center; background-color: #fff; -moz-box-shadow: 2px 2px 0 #aaa; -webkit-box-shadow: 2px 2px 0 #aaa;}
+
+ul#pe-backend-nav li.settings a:link {color: #919191; background: url('../../images/prayerengine/structure/backend/btn_settings.jpg') no-repeat; background-position: 0 -100px;}
+ul#pe-backend-nav li.settings a:visited {color: #919191; background: url('../../images/prayerengine/structure/backend/btn_settings.jpg') no-repeat; background-position: 0 -100px;}
+ul#pe-backend-nav li.settings a:hover {color: #606060; background: url('../../images/prayerengine/structure/backend/btn_settings.jpg') no-repeat; background-position: 0 -200px;}
+ul#pe-backend-nav li.settings a:active {color: #606060; background: url('../../images/prayerengine/structure/backend/btn_settings.jpg') no-repeat; background-position: 0 -200px;}
+body#settings ul#pe-backend-nav li.settings a {width: 102px; margin: 0; color: #7e192b; background: url('../../images/prayerengine/structure/backend/btn_settings.jpg') no-repeat; background-position: top center; background-color: #fff; -moz-box-shadow: 2px 2px 0 #aaa; -webkit-box-shadow: 2px 2px 0 #aaa;}
+
+/* ---------- Main Content in the Backend --------- */
+
+#pe-backend-content {
+	float: left;
+	width: 580px;
+	padding: 20px;
+	background-color: #fff;
+	-moz-box-shadow: 2px 2px 0 #aaaaaa;
+	-webkit-box-shadow: 2px 2px 0 #aaaaaa;
+	margin: 0;
+	min-height: 500px;
+}
+
+#pe-backend-content h2 {
+	font-size: 2.6em;
+	font-weight: 300;
+	border-bottom: 1px dotted #515151;
+	padding: 0 0 8px 0;
+	margin: 0 0 10px 0;
+}
+
+#pe-backend-content h3.report-title {
+	font-size: 2em;
+	font-weight: 300;
+	border-bottom: 1px dotted #515151;
+	padding: 0 0 8px 0;
+	margin: 0 20px 10px 20px;
+}
+
+#pe-backend-content h3.moderation {
+	font-size: 1.4em;
+	font-weight: 300;
+	font-style: italic;
+	float: right;
+	padding: 11px 0 0 0;
+	color: #b3b3b3;
+}
+
+#pe-backend-content p.instructions {
+	font-size: 1.3em;
+	font-weight: 300;
+	line-height: 130%;
+	margin: 0 0 15px 0;
+}
+
+#pe-backend-content p.report {
+	font-size: 1.3em;
+	font-weight: 300;
+	line-height: 130%;
+	margin: 0 20px 30px 20px;
+}
+
+#pe-backend-content .pe-list-table {
+	font-size: 1.4em;
+	width: 580px;
+}
+
+#pe-backend-content .pe-list-table a {
+	color: #515151;
+	font-weight: 700;
+	display: block;
+	padding: 8px 0 8px 0;
+	width: 100%;
+	text-decoration: none;
+}
+
+#pe-backend-content .pe-list-table tr {
+	display: block;
+	border-bottom: 4px solid #fff;
+	background-color: #fff;
+}
+
+#pe-backend-content .pe-list-table tr:hover {
+	background-color: #ececec;
+}
+
+#pe-backend-content .pe-list-table tr.new {
+	background-color: #94bfc6;
+}
+
+#pe-backend-content .pe-list-table tr.inactive {
+	background: url('../../images/prayerengine/structure/backend/stripe.png');
+}
+
+#pe-backend-content .pe-list-table tr td.link-cell {
+	width: 200px;
+	padding: 0 0 0 10px;
+}
+
+#pe-backend-content .pe-list-table tr td.date-cell {
+	width: 308px;
+}
+
+#pe-backend-content .pe-list-table tr td.date-cell a {
+	color: #515151;
+	font-weight: 300;
+	display: block;
+	width: 100%;
+	text-decoration: none;
+}	
+
+#pe-backend-content .pe-list-table tr td.delete-cell {
+	width: 50px;
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+
+#pe-backend-content .pe-list-table tr td.delete-cell a:link {color: #7e192b; font-weight: 300; padding: 4px; text-align: center;}
+#pe-backend-content .pe-list-table tr td.delete-cell a:visited {color: #7e192b; font-weight: 300; padding: 4px; text-align: center;}
+#pe-backend-content .pe-list-table tr td.delete-cell a:hover {color: #fff; font-weight: 300; padding: 3px; text-align: center; border: 1px solid #7e192b; background-color: #7e192b;}
+#pe-backend-content .pe-list-table tr td.delete-cell a:active {color: #fff; font-weight: 300; padding: 3px; text-align: center; border: 1px solid #7e192b; background-color: #7e192b;}
+
+#pe-backend-content .pe-list-table tr td.delete-cell a.hover {
+	text-decoration: none;
+}
+
+/* ---------- EDIT PAGES ---------- */
+
+/* Original Prayer Request Details */
+
+#pe-backend-content #pe-backend-prayer-details {
+	padding: 10px 20px 0 20px;
+}
+
+#pe-backend-content #pe-backend-prayer-details a:link {color: #b3b3b3; text-decoration: none;}
+#pe-backend-content #pe-backend-prayer-details a:visited {color: #b3b3b3; text-decoration: none;}
+#pe-backend-content #pe-backend-prayer-details a:hover {color: #b3b3b3; text-decoration: underline;}
+#pe-backend-content #pe-backend-prayer-details a:active {color: #b3b3b3; text-decoration: none;}
+
+#pe-backend-content #pe-backend-prayer-details h4 {
+	font-weight: 300;
+	font-size: 1.6em;
+	margin: 0 0 3px 0;
+}
+
+#pe-backend-content #pe-backend-prayer-details h5 {
+	color: #b3b3b3;
+	font-weight: 300;
+	font-size: 1.4em;
+	margin: 0 0 20px 0;
+}
+
+#pe-backend-content #pe-backend-prayer-details h5 strong {
+	color: #515151;
+	font-weight: 300;
+}
+
+#pe-backend-content #pe-backend-prayer-details p {
+	font-size: 1.3em;
+	line-height: 130%;
+	margin: 0 0 15px 0;
+	font-style: italic;
+}
+
+#pe-backend-content #pe-backend-prayer-details h4.sharetext {
+	font-weight: 700;
+	font-size: 1.6em;
+	margin: 0 0 20px 0;
+}
+
+/* Error Messages */
+
+#pe-backend-content #errors {
+	padding: 10px 10px 5px 10px;
+	margin: 0;
+	background-color: #7e192b;
+	color: #fff;
+}
+
+#pe-backend-content #errors p {
+	margin: 0 0 10px 0;
+	font-size: 1.3em;
+	font-weight: 700;
+	text-align: center;
+}
+
+#pe-backend-content #errors ul {
+	margin: 0;
+	padding: 0;
+}
+
+#pe-backend-content #errors ul li {
+	margin: 0 0 5px 20px;
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+/* Sucess Messages */
+
+#pe-backend-content #messages {
+	padding: 0 10px 0 10px;
+	margin: 0;
+	background-color: #94bfc6;
+	color: #fff;
+}
+
+#pe-backend-content #messages p {
+	margin: 0;
+	padding: 5px 0 5px 0;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: center;
+}
+
+/* Account Activation Message */
+
+#pe-backend-content #activation {
+	padding: 5px 10px 5px 10px;
+	margin: 0;
+	background: url('../../images/prayerengine/structure/backend/stripe.png');
+	color: #515151;
+}
+
+#pe-backend-content #activation p {
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: 700;
+	text-align: center;
+}
+
+#pe-backend-content #activation p a {
+	color: #7e192b;
+	text-decoration: none;
+}
+
+/* Forms */
+
+#pe-backend-content form {
+	background-color: #e7e7e7;
+	padding: 15px 0 0 0;
+	margin: 0;
+}
+
+#pe-backend-content form table {
+	margin: 0 10px 10px 10px;
+}
+
+#pe-backend-content .edit-form-table td {
+	vertical-align: top;
+}
+
+#pe-backend-content .edit-form-table td.label-cell {
+	padding: 5px 8px 0 0;
+	width: 60px;
+	text-align: right;
+}
+
+#pe-backend-content .edit-form-table td.label-cell label {
+	font-weight: 700;
+	font-size: 1.3em;
+}
+
+#pe-backend-content .edit-form-table input, #pe-backend-content .edit-form-table textarea, #pe-backend-content .edit-form-table select {
+	font-family: Arial, Helvetica;
+	font-size: 1.3em;
+	padding: 3px;
+	border: 2px solid #dadada;
+	color: #000;
+}
+
+#pe-backend-content .edit-form-table input {
+	width: 250px;
+	margin: 0 0 10px 0;
+}
+
+#pe-backend-content .edit-form-table select {
+	margin: 0 0 10px 0;
+}
+
+#pe-backend-content .edit-form-table input.check {
+	width: 13px;
+}
+
+#pe-backend-content .edit-form-table td textarea {
+	width: 472px;
+}
+
+#pe-backend-content .edit-form-table textarea#prayer {
+	height: 140px;
+}
+
+#pe-backend-content .edit-form-table #twitter-area {
+	display: none;
+	margin: 0 10px 0 10px;
+}
+
+#pe-backend-content .edit-form-table #twitter-area textarea {
+	height: 50px;
+	margin: 0;
+}
+
+#pe-backend-content .edit-form-table #twitter-area p.twitter-counter {
+	display: none; /* Hide if JavaScript off */
+	padding: 2px 0 0 0;
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+#pe-backend-content .edit-form-table input.submit {
+	width: 150px;
+	margin: 0 0 0 10px;
+	text-transform: uppercase;
+	font-style: italic;
+	background-color: #7e192b;
+	border: 2px solid #7e192b;
+	color: #fff;
+}
+
+#pe-backend-content .edit-form-table #pe-submit-area {
+	background-color: #cacaca;
+	padding: 10px;
+	margin: 0;
+	text-align: right;
+}
+
+#pe-backend-content .edit-form-table #pe-submit-area label {
+	font-size: 1.2em;
+	padding: 0 9px 0 4px;
+}
+
+/* User Table */
+
+#pe-backend-content .edit-form-table .user-table td.label-cell {
+	padding: 5px 8px 0 0;
+	width: 125px;
+	text-align: right;
+}
+
+#pe-backend-content .edit-form-table .user-table td ul li{
+	list-style-type: none;
+	font-size: 1.2em;
+}
+
+#pe-backend-content .edit-form-table .user-table td input.check {
+	margin: 0 8px 10px 0;
+}
+
+a.back-link:link {font-size: 1.4em; width: 110px; color: #7e192b; border: 1px solid #fff; display: block; text-decoration: none; padding: 0 3px 3px 3px; margin: 15px 5px 0 0; text-align: center;}
+a.back-link:visited {font-size: 1.4em; width: 110px; color: #7e192b; border: 1px solid #fff; display: block; text-decoration: none; padding: 0 3px 3px 3px; margin: 15px 5px 0 0; text-align: center;}
+a.back-link:hover {font-size: 1.4em; width: 110px; color: #fff; border: 1px solid #7e192b; background-color: #7e192b; display: block; text-decoration: none; padding: 0 3px 3px 3px; margin: 15px 5px 0 0; text-align: center;}
+a.back-link:active {font-size: 1.4em; width: 110px; color: #fff; border: 1px solid #7e192b; background-color: #7e192b; display: block; text-decoration: none; padding: 0 3px 3px 3px; margin: 15px 5px 0 0; text-align: center;}
+
+a.return-link:link {font-size: 1.4em; width: 138px; color: #7e192b; border: 1px solid #fff; display: block; text-decoration: none; padding: 0 3px 3px 3px; margin: 15px 5px 0 0; text-align: center;}
+a.return-link:visited {font-size: 1.4em; width: 138px; color: #7e192b; border: 1px solid #fff; display: block; text-decoration: none; padding: 0 3px 3px 3px; margin: 15px 5px 0 0; text-align: center;}
+a.return-link:hover {font-size: 1.4em; width: 138px; color: #fff; border: 1px solid #7e192b; background-color: #7e192b; display: block; text-decoration: none; padding: 0 3px 3px 3px; margin: 15px 5px 0 0; text-align: center;}
+a.return-link:active {font-size: 1.4em; width: 138px; color: #fff; border: 1px solid #7e192b; background-color: #7e192b; display: block; text-decoration: none; padding: 0 3px 3px 3px; margin: 15px 5px 0 0; text-align: center;}
+
+a.back-link strong, a.return-link strong {
+	font-size: 1.3em;
+	font-weight: 300;
+}
+
+/* Settings Table */
+
+#pe-backend-content .edit-form-table#settings-table table#swatches {
+	margin-top: 5px;
+}
+
+#pe-backend-content .edit-form-table#settings-table table#swatches td {
+	width: 130px;
+	vertical-align: top;
+	height: 30px;
+}
+
+#pe-backend-content .edit-form-table#settings-table table#swatches .color-label {
+	font-size: 1.3em;
+	cursor: help;
+	border-bottom: 1px dotted;
+}
+
+#pe-backend-content .edit-form-table#settings-table table#swatches .color_swatch {
+	border: 2px solid #fff;
+}
+
+.info {
+	cursor: help;
+	border-bottom: 1px dotted;
+}
+
+#pe-backend-content .edit-form-table#settings-table table#swatches input {
+	width: auto;
+	padding: 3px 0 0 0;
+	margin: 0 5px 0 0;
+}
+
+#pe-backend-content .edit-form-table#settings-table td.label-cell {
+	padding: 5px 8px 0 0;
+	width: 120px;
+	text-align: right;
+}
+
+#pe-backend-content .edit-form-table input#prayersdisplayed {
+	width: 40px;
+}
+
+#pe-backend-content .edit-form-table input#ministryname {
+	width: 200px;
+}
+
+#pe-backend-content .edit-form-table input#time_zone {
+	width: 100px;
+}
+
+#pe-backend-content .edit-form-table textarea#twitter_description, #pe-backend-content .edit-form-table textarea#rss_description {
+	width: 395px;
+	height: 60px;
+	margin: 0 0 10px 0;
+}
+
+#pe-backend-content .edit-form-table .description {
+	font-size: 1.3em;
+	padding: 0 0 0 8px;
+}
+
+#pe-backend-content .edit-form-table .description a {
+	color: #801728;
+}
+
+/* Buttons */
+
+#pe-backend-content a.new-user:link {margin: 5px 0 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 120px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/add.gif') no-repeat; background-position: 10px 0; background-color: #94bfc6;  float: right;}
+#pe-backend-content a.new-user:visited  {margin: 5px 0 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 120px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/add.gif') no-repeat; background-position: 10px 0; background-color: #94bfc6;  float: right;}
+#pe-backend-content a.new-user:hover  {margin: 5px 0 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 120px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/add.gif') no-repeat; background-position: 10px 0; background-color: #8fb1b6;  float: right;}
+#pe-backend-content a.new-user:active  {margin: 5px 0 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 120px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/add.gif') no-repeat; background-position: 10px 0; background-color: #8fb1b6;  float: right;}
+
+#pe-backend-content a.new-request:link {margin: 5px 0 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 150px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/add.gif') no-repeat; background-position: 10px 0; background-color: #94bfc6;  float: right;}
+#pe-backend-content a.new-request:visited {margin: 5px 0 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 150px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/add.gif') no-repeat; background-position: 10px 0; background-color: #94bfc6;  float: right;}
+#pe-backend-content a.new-request:hover {margin: 5px 0 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 150px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/add.gif') no-repeat; background-position: 10px 0; background-color: #8fb1b6;  float: right;}
+#pe-backend-content a.new-request:active {margin: 5px 0 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 150px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/add.gif') no-repeat; background-position: 10px 0; background-color: #8fb1b6;  float: right;}
+
+#pe-backend-content a.run-report:link {margin: 0 20px 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 127px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/report.gif') no-repeat; background-position: 10px 0; background-color: #94bfc6;  float: right;}
+#pe-backend-content a.run-report:visited {margin: 0 20px 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 127px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/report.gif') no-repeat; background-position: 10px 0; background-color: #94bfc6;  float: right;}
+#pe-backend-content a.run-report:hover {margin: 0 20px 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 127px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/report.gif') no-repeat; background-position: 10px 0; background-color: #8fb1b6;  float: right;}
+#pe-backend-content a.run-report:active {margin: 0 20px 0 0; display: block; font-size: 1.3em; text-align: right; text-decoration: none; text-transform: uppercase; width: 127px; padding: 5px 9px 5px 20px; color: #fff; background: url('../../images/prayerengine/structure/backend/report.gif') no-repeat; background-position: 10px 0; background-color: #8fb1b6;  float: right;}
+
+
+
+/* ---------- PAGINATION ---------- */
+
+.pe-pagination {
+	text-align: center;
+	margin: 15px auto 15px auto;
+	font-size: 1.2em;
+	display: table;
+}
+
+.pe-pagination .pe-current-page {
+	display: block;
+	text-decoration: none;
+	padding: 3px;
+	float: left;
+	margin: 0 5px 0 0;
+	text-align: center;
+	border: 1px solid #7e192b;
+	background-color: #fff;
+	color: #7e192b;
+}
+
+.pe-pagination a:link {color: #7e192b; border: 1px solid #fff; display: block; text-decoration: none; padding: 3px; float: left; margin: 0 5px 0 0; text-align: center;}
+.pe-pagination a:visited {color: #7e192b; border: 1px solid #fff; display: block; text-decoration: none; padding: 3px; float: left; margin: 0 5px 0 0; text-align: center;}
+.pe-pagination a:hover {color: #fff; border: 1px solid #7e192b; background-color: #7e192b; display: block; text-decoration: none; padding: 3px; float: left; margin: 0 5px 0 0; text-align: center;}
+.pe-pagination a:active {color: #fff; border: 1px solid #7e192b; background-color: #7e192b; display: block; text-decoration: none; padding: 3px; float: left; margin: 0 5px 0 0; text-align: center;}
+
+
+/* ---------- FORMATTING FOR REPORTS ----------- */
+
+body#report {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* enables you to easily size text with ems */
+	font-family: Georgia, serif;
+	margin: 20px;
+}
+
+body#report h1 {
+	font-size: 2.8em;
+	margin: 0 0 5px 0;
+}
+
+body#report h4 {
+	font-weight: 300;
+	font-size: 1.5em;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #000;
+	margin: 0 0 10px 0;
+}
+
+body#report h3 {
+	font-weight: 700;
+	font-size: 1.4em;
+	margin: 20px 0 10px 0;
+}
+
+body#report p {
+	font-weight: 300;
+	font-size: 1.3em;
+	margin: 0 0 10px 0;
+	padding: 0 20px 0 20px;
+	line-height: 140%;
+}
+
+body#report h5 {
+	font-weight: 300;
+	font-size: 1.5em;
+	padding: 10px 0 0 0;
+	border-top: 1px solid #000;
+	margin: 30px 0 10px 0;
+}
+
+/* Footer */
+
+p#footer {
+	clear: both;
+	font-size: 1.3em;
+	padding: 30px 0 70px 0;
+	text-align: center;
+	color: #b5b5b5;
+}
+
+p#footer a {color: #b5b5b5;}
+
+/* Installation Wizard */
+
+body#wizard {
+	background: url('../../images/prayerengine/structure/backend/wizard_logo.jpg') no-repeat;
+	background-position: top center;
+	background-color: #94bfc6;
+}
+
+#wizard-container {
+	margin: 210px auto 0 auto;
+	width: 600px;
+	text-align: center;
+}
+
+#wizard-container h2 {
+	margin: 0 0 25px 0;
+	color: #801728;
+	font-size: 3em;
+}
+
+#wizard-container p {
+	font-size: 1.8em;
+	color: #fff;
+	margin: 0 0 18px 0;
+}
+
+#wizard-container p#wizard-error {
+	color: #000;
+}
+
+#wizard-container a {
+	color: #801728;
+}
+
+#wizardtable td.label-cell {
+	width: 120px;
+	text-align: right;
+}
+
+#wizardtable td.input-cell {
+	width: 400px;
+	text-align: left;
+}
+
+#wizardtable label {
+	font-size: 1.8em;
+	color: #801728;
+}
+
+#wizardtable input {
+	font-size: 1.8em;
+	border: 2px solid #76989e;
+	padding: 3px;
+	margin: 0 5px 0 4px;
+}
+
+#wizardtable input#url {
+	width: 390px;
+}
+
+#wizardtable input#time_zone {
+	width: 150px;
+}
+
+input#wizardsubmit {
+	width: 230px;
+	margin: 10px 0 50px 0;
+	text-transform: uppercase;
+	font-style: italic;
+	background-color: #7e192b;
+	border: 2px solid #7e192b;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 5px;
+}
+
+#wizardtable cite {
+	font-size:  1.4em;
+}
+

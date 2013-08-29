@@ -1,0 +1,16 @@
+/* Prayer Engine - Fixes for Internet Explorer 8's wonky page rendering */
+
+#pe-backend-content .pe-list-table tr td.delete-cell {
+	width: 50px;
+	text-align: right;
+	padding: 0 12px 0 0;
+}
+
+#pe-backend-content .edit-form-table input.check {
+	border: 0;
+	padding: 0;
+}
+
+#pe-backend-content .edit-form-table input.radio {
+	border: 0;
+}

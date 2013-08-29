@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gallery>
+  <album title="Home Page Rotator" lgpath="mediafiles/" tnpath="mediafiles/" description="" tn="http://www.pcctoday.com/monkimage.php?mediaDirectory=mediafiles&mediaId=1024292&fileName=aa--home-flash-ad--proverbs-sermon-series--2011-0-0-60-80.jpg" >
+    <img src="aa--home-flash-ad--911-service-promo--2011.jpg" link="http://www.pcctoday.com/event/2011-09-11-a-better-911/" target="_self" />
+    <img src="aa--home-flash-ad--proverbs-sermon-series--2011.jpg" link="http://www.pcctoday.com/worship/" target="_self" />
+    <img src="aa--home-flash-ad--parables-series--2011.jpg" link="http://www.pcctoday.com/mystory/" target="_self" />
+    <img src="aa--home-flash-ad--2-service-promo--2011.jpg" link="" target="_self" />
+    <img src="aa--home-flash-ad--entreleadership-promo--2011.jpg" link="/event/2011-09-30-dave-ramsey-simulcast-entreleadership/" target="_self" />
+    <img src="aa--home-flash-ad--alpha-course-promo--summer-2011.jpg" link="http://www.pcctoday.com/life-learning/spiritual-life-classes/alpha-course/" target="_self" />
+    <img src="aa--home-flash-ad--youth-ministries-summer-promo--2011.jpg" link="http://www.pcctoday.com/youth/" target="_self" />
+    <img src="aa--home-flash-ad--2011-unleashed-capital-campaign.jpg" link="http://www.pcctoday.com/unleashedcapital/" target="_self" />
+  </album>
+</gallery>

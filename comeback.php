@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+   <head>
+      
+      <title>Site Error</title>
+      <link rel="stylesheet" type="text/css" href="/css/styles.css" title="default" />
+      <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
+      <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+     
+   </head>
+   <body>
+      <div id="container">
+         <div id="container-inner">
+            <div id="content-wrap">
+               <div id="content">
+
+				      <h1>Come back in a moment!</h1>
+                  <p>Something is slightly haywire just now. We are looking into it.  Please try your request again in a moment.  Thanks!</p>
+
+               </div> <!-- #content -->
+            </div> <!-- #content-wrap -->
+         </div> <!-- #container-inner -->
+      </div> <!-- #container -->
+   </body>
+</html>

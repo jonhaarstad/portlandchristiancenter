@@ -1,0 +1,25 @@
+
+<ul id="subNav">
+  <li class="current" id="subNav_outreach"><a href="/outreach/">Outreach</a>
+    <ul>
+    <li id="subNav_outreach_serve-within-the-church"><a href="/outreach/serve-within-the-church/">Serve Within The Church</a>
+      <ul>
+      <li id="subNav_outreach_serve-within-the-church_discover-how-im-made-to-serve"><a href="/outreach/serve-within-the-church/discover-how-im-made-to-serve/">Discover How I'm Made to Serve</a></li>
+      <li id="subNav_outreach_serve-within-the-church_find-opportunities-to-serve"><a href="/outreach/serve-within-the-church/find-opportunities-to-serve/">Find Opportunities to Serve</a></li>
+      <li id="subNav_outreach_serve-within-the-church_explore-a-first-serve"><a href="/outreach/serve-within-the-church/explore-a-first-serve/">Explore a First Serve</a></li>
+    </ul>
+    </li>
+    <li id="subNav_serve_serving-locally"><a href="/serve/serving-locally/">Serve In Our Community</a>
+      <ul>
+      <li id="subNav_outreach_serve-in-our-community_royal-family-kids"><a href="/outreach/serve-in-our-community/royal-family-kids/">Royal Family Kids</a></li>
+    </ul>
+    </li>
+    <li id="subNav_serve_serving-globally"><a href="/serve/serving-globally/">Serve Around the World</a>
+      <ul>
+      <li id="subNav_petrosnetwork"><a href="/petrosnetwork/">Petros Network--Church Planting &amp; Redemptive Lift</a></li>
+      <li id="subNav_widows"><a href="/widows/">Care for Widows and Orphans</a></li>
+      </ul>
+    </li>
+    </ul>
+  </li>
+</ul>
